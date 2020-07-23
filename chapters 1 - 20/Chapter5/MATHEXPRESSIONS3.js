@@ -1,0 +1,12 @@
+var number = 5;
+document.write("Initial value: " + number);
+number++;
+document.write("<br>value after increment is : " + number);
+var number1 = number + 7;
+document.write("<br>value after addition is : " + number1);
+number1--;
+document.write("<br>value after decreement is : " + number1);
+var number2 = number1 / 3;
+document.write("<br>value after divide by 3 is : " + number2);
+var number3 = number1 % 3;
+document.write("<br>The remainder is : " + number3);
